@@ -1,0 +1,89 @@
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/header.jpg') no-repeat center center;
+    background-size: cover; 
+    
+    .container{
+        
+        
+        .header__headline{
+            margin: 84% 0 20px 0;
+            font: 700 3em $fJosefin;
+            text-transform: uppercase;
+            color: $white;
+            //letter-spacing: 10px;
+            
+        }
+        .header__text{
+            display: block;
+            font: 400 1em/1.5em $fJosefin;
+            letter-spacing: 6px;
+            text-align: center;
+            color: $white;
+            margin-bottom: 50px;
+        }
+        .header__search{
+            padding: 0;
+            width: 650px;
+            height: 60px;
+            background: $white;
+            border: 2px solid $white;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding: 0 0 0 15px;
+            margin-bottom: 120px;
+            
+            .search__input{
+                padding: 2px 0 0 0 ;
+                width: 80%;
+                font: 400 18px/26px $fJosefin;
+                
+                
+                
+                &::-webkit-input-placeholder{
+                    font: 400 14px $fJosefin;
+                    letter-spacing: 5px;;
+                }
+            }
+            .search__button{
+               width: 20%;
+               font: 400 18px/26px $font;
+               background: $blue;
+               color: $white;
+               height: 58px;
+                margin: 0;
+                   
+                .icon{
+                        font-size: 26px;
+                    line-height: 26px;
+                    padding-left: 2px;
+                    }
+                
+                
+            }
+            
+        }
+        .header__scroll{
+            text-align: center;
+            font-size:  .9em;
+            letter-spacing: 2px;
+                text-align: center;
+                color: $white;
+            
+            .header__scroll--link{
+                
+                    .icon{
+                        font-size: 50px;
+                    }
+                }
+        } 
+        
+    }
+}

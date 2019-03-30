@@ -1,0 +1,29 @@
+.spain-roks{
+    background: url('../images/spain-2.jpg') no-repeat center center;
+    background-size: cover;
+    .container{
+        padding: 250px 0 100px 0;
+        flex-direction: row;
+        justify-content: flex-end;
+        
+        .spain-roks__article{
+            color: $white;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            .article__headline{
+                font:400 20px/40px  $fJosefin;
+            }
+            .article__header{
+                font:400 20px/40px  $fJosefin;
+                text-transform: uppercase;
+            }
+            .article__text{
+                font:400 16px/24px  $fJosefin;
+            }
+            .article__button{
+                
+            }
+        }
+    }
+}
+

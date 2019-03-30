@@ -1,0 +1,26 @@
+.choose__navigation{
+    background: $dark;
+    
+    .container{
+        padding: 100px 0 100px 0;
+        .choose__nav{
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            
+            .nav__item{
+                text-align: center;
+                
+                .nav__link{
+                   font-size: 34px;
+                    .icon{
+                        font-size: 64px;
+                        line-height: 94px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

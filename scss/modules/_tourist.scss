@@ -1,0 +1,43 @@
+.tourist{
+    background: url('../images/travel.jpg') no-repeat center center;
+    .container{
+        padding: 100px 0 200px 0;
+        .tourist__header{
+            font: 400 36px/94px $font;
+            color: $white;
+            padding-bottom: 50px;
+        }
+        .tourist__article{
+             background: #333333; 
+            padding: 0;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            
+            .article__img{
+                width: 40%;
+            }
+            .article__text{
+                padding: 24px 25px 15px 60px;
+                width: 60%;
+               
+                
+                .text__header{
+                    font: 400 18px/24px $fJosefin;
+                    text-transform: uppercase;
+                    color: $white;
+                    padding-bottom: 10px;
+                }
+                .icon{
+                    color: $blue;
+                    font-size: 30px;
+                    padding: 5px 15px 10px 5px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.navigation{
+    //height: 80px;
+    background: $blue;
+    
+    .container{
+        height: inherit;
+        
+        .navigation__main{ 
+           
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            height: 7%;
+            
+            .footer__logo{
+                font: 700 2em/4em $fJosefin;
+                text-transform: uppercase;
+                text-align: center;
+                color: $white;
+                text-align: left;
+            }
+            
+            .footer__nav{
+                display: -webkit-flex;
+                display: -moz-flex;
+                display: -ms-flex;
+                display: -o-flex;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                
+                .footer__items{
+                    
+                    .footer__link{
+                        font-size: 14px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
+}

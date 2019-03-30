@@ -1,0 +1,33 @@
+.choose{
+    background: url('../images/choose.jpg') no-repeat center center;
+    background-size: cover;
+    .container{
+        padding: 100px 0 100px;
+        flex-direction: row;
+        
+        .choose__article{
+            flex-direction: row;
+            
+            .article__headline{
+                font: 400 2em/4em $font;
+            }
+            .article__text{
+                font: 400 1em $fJosefin;
+            }
+            .article__button{
+              
+                
+            }
+            
+        }
+        .choose__gallery{
+            
+            .gallery__imgtop{
+                padding: 5px 125px 2.5px 5px;
+            }
+            .gallery__imgbot{
+                padding: 2.5px 5px 5px 125px ;
+            }
+        }
+    }
+}
