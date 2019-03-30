@@ -19,6 +19,15 @@
                     }
                 }
             }
+            .nav__item:nth-child(1) .icon{
+                color: blue;
+            }
+            .nav__item:nth-child(2) .icon{
+                color: red;
+            }
+            .nav__item:nth-child(3) .icon{
+                color: lightblue;
+            }
         }
     }
 }
